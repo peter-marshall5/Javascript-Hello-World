@@ -1,7 +1,7 @@
-var button = document.getElementById("hello");
+const button = document.getElementById('hello')
 
-function hello() {
-  alert("Hello, World!");
+function hello () {
+  alert('Hello, World!')
 }
 
-button.addEventListener("click", hello);
+button.addEventListener('click', hello)
